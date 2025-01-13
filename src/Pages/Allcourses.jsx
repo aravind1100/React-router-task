@@ -1,8 +1,4 @@
 import React from "react";
-import Career from "./Career";
-import CyberSecurity from "./CyberSecurity";
-import DataScience from "./DataScience";
-import Fullstack from "./Fullstack";
 
 const Allcourses = () => {
   const allCards = [
@@ -91,16 +87,20 @@ const Allcourses = () => {
       title: "Frontend Frameworks: React, Vue, and Angular",
       author: "David Lee",
       date: "October 25, 2024",
-    }
+    },
   ];
   return (
-    <div className="fluid-container">
+    <div className="container-fluid">
       <div className="row">
         {allCards.map((card, index) => (
           <div key={index} className="col col-12 col-lg-6 col-xxl-4 g-5 ">
             <div className="card">
-              
-              <img src={card.image} alt={card.title}  loading="lazy" className="card-img-top" />
+              <img
+                src={card.image}
+                alt={card.title}
+                loading="lazy"
+                className="card-img-top"
+              />
               <div className="card-body">
                 <a
                   href=""

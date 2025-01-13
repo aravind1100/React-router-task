@@ -7,6 +7,7 @@ import DataScience from "./Pages/DataScience";
 import CyberSecurity from "./Pages/CyberSecurity";
 import Career from "./Pages/Career";
 
+
 const App = () => {
   return (
     <>
